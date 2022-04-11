@@ -59,7 +59,7 @@ public class Main extends JFrame implements ActionListener {
 	 */
 	public void Init() {
 
-		this.setTitle("斗地主游戏---by 小柒,qq361106306");
+		this.setTitle("王艺 --- 斗地主");
 		this.setSize(830, 620);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
@@ -67,7 +67,8 @@ public class Main extends JFrame implements ActionListener {
 
 		container = this.getContentPane();
 		container.setLayout(null);
-		container.setBackground(new Color(0, 112, 26)); // 背景为绿色
+//		container.setBackground(new Color(0, 0, 0)); // 背景为绿色
+		container.setBackground(Color.GRAY);
 	}
 
 	/**
@@ -214,7 +215,7 @@ public class Main extends JFrame implements ActionListener {
 			System.exit(0);
 		}
 		if (e.getSource() == about) {
-			JOptionPane.showMessageDialog(this, "QQ361106306,小柒");
+			JOptionPane.showMessageDialog(this, "王艺---斗地主");
 		}
 		if (e.getSource() == start) {
 //			 this.restart();

@@ -412,7 +412,7 @@ public class Common {
 		}
 		// 如果王不构成炸弹咋先拆单
 		if (Common.getColor(list.get(0)) == 5
-				&& Common.getColor(list.get(1)) != 5) {
+				&& Common.getColor(list.get(0)) != 5) {
 			del.add(list.get(0));
 			model.a1.add(list.get(0).name);
 		}
